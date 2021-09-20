@@ -5,6 +5,11 @@ body {
   overflow: show; /*sliding thing */
 }
 
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("../image/computer.jpg");
+}
 .testimonial {
   padding: 60px 100px;
   text-align: center;
@@ -20,12 +25,17 @@ article img {
 
 blockquote {
   font-family: "Courier New", Courier, monospace;
-  font-size: 22px;
+  font-size: 30px;
   margin-top: 30px;
+  color: rgb(0, 0, 0);
 }
 article h5 {
   text-transform: uppercase;
   font-size: 27px;
   margin-top: 30px;
   letter-spacing: 1.5px;
+}
+
+article p {
+  font-size: 25px;
 }
