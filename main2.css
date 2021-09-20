@@ -39,3 +39,67 @@ article h5 {
 article p {
   font-size: 25px;
 }
+
+/* contact form shit */
+* {
+  padding: 0;
+}
+
+body {
+  background-color: #04142da8;
+  font-family: sans-serif;
+}
+
+.contact-box {
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.contact-box h1 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  text-shadow: 3px 3px rgb(82, 79, 79);
+  background: #47c35a;
+  border-radius: 100px;
+}
+
+form {
+  margin: 35px;
+  margin-top: 20px;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+  resize: none;
+}
+
+.btn {
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  margin-left: 60px;
+  padding: 10px;
+  background-color: #47c35a;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}

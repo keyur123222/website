@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="main2.css">
     <link rel="icon" href="images/LightningBob.gif">
@@ -12,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    
     <nav>
         <div class="name"><strong>Keyur Rana</strong></div>
         <div class="logo">
@@ -20,15 +23,25 @@
         <ul class="links">
             <li><a href="./index.html">Home</a></li>
             <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
             <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
         </ul>
         <h2 class="line"><span>Contact Me!</span></h2>
     </nav>
-    
 
 
-    
-    
+    <div class="contact-box">
+        <h1>Send me a Message!</h1>
+    <form method="POST" action="https://formsubmit.co/keyur.rana004@gmail.com" enctype="multipart/form-data">
+        <input class="input-field" type="name" name="name" placeholder="Your Name" required>
+        <input class = "input-field" type="email" name="email" placeholder="Your email" required>
+        <textarea class = "input-field textarea-field" name="message" placeholder="Message"></textarea>
+        <input  class = "input-field" type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_webhook" value="https://yourdomain.co/your-webhook">
+        <input  class = "" type="file" name="attachment" accept="image/png, image/jpeg">
+        <button class = "btn" type="submit">Send Message</button>
+    </form>
+    </div>
+ 
 </body>
 </html>

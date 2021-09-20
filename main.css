@@ -29,6 +29,7 @@ body {
   font-size: 7vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
+  text-shadow: 5px 5px black;
 }
 
 .headerIntro h3 {
@@ -38,6 +39,7 @@ body {
   font-family: "Oswald", sans-serif;
   color: rgb(5, 5, 5);
   text-decoration: underline #04142d;
+  text-shadow: 2px 2px rgb(185, 168, 168);
 }
 
 /* navigation border */
@@ -49,7 +51,18 @@ nav {
   top: 0;
   font-family: "Oswald", sans-serif;
   height: 100px;
-  background-color: #04142d;
+  background-color: #04142df1;
+  padding: 0 5%;
+}
+nav2 {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  font-family: "Oswald", sans-serif;
+  height: 100px;
+  background-color: #04142dbc;
   padding: 0 5%;
 }
 
