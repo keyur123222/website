@@ -29,7 +29,7 @@ body {
   font-size: 7vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  text-shadow: 5px 5px black;
+  text-shadow: 5px 5px rgb(233, 180, 57);
 }
 
 .headerIntro h3 {
@@ -52,17 +52,6 @@ nav {
   font-family: "Oswald", sans-serif;
   height: 100px;
   background-color: #04142df1;
-  padding: 0 5%;
-}
-nav2 {
-  position: fixed;
-  z-index: 10;
-  left: 0;
-  right: 0;
-  top: 0;
-  font-family: "Oswald", sans-serif;
-  height: 100px;
-  background-color: #04142dbc;
   padding: 0 5%;
 }
 
