@@ -53,6 +53,7 @@ header {
   background: #fed136;
   border-color: #fed136;
   color: #000;
+  transition: 0.1s ease;
 }
 
 /* text animation */
