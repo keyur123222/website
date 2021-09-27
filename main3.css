@@ -22,6 +22,7 @@ header {
   padding-left: 50px;
   padding-right: 50px;
 }
+
 .navbar-brand {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -163,13 +164,24 @@ header {
 }
 
 /* cards */
+
+.cardTitle {
+  margin-top: auto;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.text {
+  text-shadow: #000;
+}
+
 .postcard {
   width: 85%;
   margin: 50px auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 25px;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .cards {
@@ -258,4 +270,37 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* tableofcontents */
+
+.allcontent {
+  text-align: center;
+  margin-top: 100px;
+  width: 350px;
+  margin: 100px auto;
+}
+
+.listOfItems {
+  background-color: rgb(212, 185, 185);
+}
+.tableOfContentButton {
+  background-image: linear-gradient(#fed136, #fed136);
+  border-radius: 3px solid black;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  text-decoration: none;
+  margin-top: 10px;
+  box-shadow: #000 2px 2px;
+  border-radius: 10px;
+  color: #000;
+}
+
+.tableOfContentButton:hover {
+  background: #000;
+  box-shadow: #fed136 2px -2px;
+  color: white;
+  transition: 0.1s ease;
 }
