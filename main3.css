@@ -258,20 +258,6 @@ header {
   background-position: center;
 }
 
-.cards .img-five {
-  background-image: url(./images/LightningBob.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.cards .img-six {
-  background-image: url(./images/LightningBob.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 /* tableofcontents */
 
 .allcontent {
@@ -300,7 +286,7 @@ header {
 
 .tableOfContentButton:hover {
   background: #000;
-  box-shadow: #fed136 2px -2px;
+  box-shadow: #000000 2px -2px;
   color: white;
   transition: 0.1s ease;
 }
