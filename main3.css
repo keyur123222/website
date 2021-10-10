@@ -191,7 +191,7 @@ header {
 
 .image-section {
   height: 225px;
-  background-color: red;
+  background-color: rgb(124, 123, 123);
 }
 
 .content {
@@ -230,29 +230,90 @@ header {
 }
 
 /* individual cards */
-.cards .img-one {
+
+/* Technical Projects  */
+.TechPro .cards .img-one {
+  background-image: url(./images/SleepingQuarter.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.TechPro .cards .img-two {
+  background-image: url(./images/MarbleSorter.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.TechPro .cards .img-three {
   background-image: url(./images/LightningBob.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.cards .img-two {
+.TechPro .cards .img-four {
   background-image: url(./images/LightningBob.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.cards .img-three {
+/* Digital Electronics */
+.DE .cards .img-one {
+  background-image: url(./images/Rng.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.DE .cards .img-two {
+  background-image: url(./images/Fireplace.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.DE .cards .img-three {
+  background-image: url(./images/Vote.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.DE .cards .img-four {
   background-image: url(./images/LightningBob.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.cards .img-four {
-  background-image: url(./images/LightningBob.gif);
+/* Introduction to Engineering Design */
+
+.IED .cards .img-one {
+  background-image: url(./images/Train.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.IED .cards .img-two {
+  background-image: url(./images/Flashlight.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.IED .cards .img-three {
+  background-image: url(./images/Button\ Maker.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.IED .cards .img-four {
+  background-image: url(./images/SleepingQuarter.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
