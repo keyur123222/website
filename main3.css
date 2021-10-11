@@ -283,7 +283,35 @@ header {
 }
 
 .DE .cards .img-four {
-  background-image: url(./images/LightningBob.gif);
+  background-image: url(./images/60.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.DE .cards .img-five {
+  background-image: url(./images/7seg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.DE .cards .img-six {
+  background-image: url(./images/tollbooth1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.DE .cards .img-seven {
+  background-image: url(./images/tollbooth.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.DE .cards .img-eight {
+  background-image: url(./images/serve.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
