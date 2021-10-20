@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .hidden {
   display: none;
 }
@@ -190,7 +192,7 @@ header {
 }
 
 .image-section {
-  height: 225px;
+  height: 255px;
   background-color: rgb(124, 123, 123);
 }
 
@@ -317,6 +319,28 @@ header {
   background-position: center;
 }
 
+/* Principles of Engineering */
+.POE .cards .img-one {
+  background-image: url(./images/Hydro.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.POE .cards .img-two {
+  background-image: url(./images/Gears.png);
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.POE .cards .img-three {
+  background-image: url(./images/Renewable.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* Introduction to Engineering Design */
 
 .IED .cards .img-one {
@@ -364,7 +388,9 @@ header {
   border-radius: 3px solid black;
   padding: 10px 10px;
   text-align: center;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   margin: 0 auto;
   text-decoration: none;
   margin-top: 10px;
@@ -378,4 +404,130 @@ header {
   box-shadow: #000000 2px -2px;
   color: white;
   transition: 0.1s ease;
+}
+
+/* about me */
+.card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  width: 80%;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  background: #005e9b;
+  color: white;
+  text-align: center;
+  padding: 2em;
+  margin: 100px auto;
+}
+
+.cardcustom {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  width: 80%;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  background: #005e9b;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding: 2em;
+  margin: 100px auto;
+}
+
+.cardcustom .profile-name {
+  text-align: center;
+}
+
+.profile-name {
+  margin-top: 10px;
+  font-size: 2rem;
+  line-height: 1.1;
+  letter-spacing: 1px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.profile-name::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 2em;
+  background: #5bcbf0;
+  margin: 0.7em auto 0.5em;
+  opacity: 0.35;
+}
+
+.profile-position {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 3px;
+  color: #5bcbf0;
+  margin-bottom: 2em;
+}
+
+.profile-body {
+  font-weight: 300;
+  opacity: 0.8;
+  margin-bottom: 0;
+}
+
+.profile-image {
+  border-radius: 10%;
+  border: 4px solid white;
+  max-width: 225px;
+  text-align: center;
+  margin: auto;
+}
+
+.profile-img {
+  max-width: 300px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.certificate {
+  max-width: 675px;
+}
+
+@media (min-width: 875px) {
+  .card {
+    flex-direction: row;
+  }
+
+  .profile-main {
+    text-align: left;
+    margin-left: 2em;
+  }
+  .profile-name::after {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .profile-img {
+    max-width: 200px;
+  }
+
+  .certificate {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 1850px) {
+  .cardcustom {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 860px) {
+  .certificate {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 640px) {
+  .certificate {
+    max-width: 300px;
+  }
 }
