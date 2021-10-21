@@ -486,8 +486,41 @@ header {
   padding-bottom: 30px;
 }
 
+.profile-custom {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
 .certificate {
   max-width: 675px;
+  box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+
+.resume-btn {
+  background-image: linear-gradient(#5bcbf0, #5bcbf0ca);
+  border-radius: 3px solid black;
+  padding: 10px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  text-decoration: none;
+  margin-top: 10px;
+  box-shadow: #000 2px 2px;
+  border-radius: 10px;
+  color: #000;
+  max-width: 100px;
+}
+
+.resume-btn:hover {
+  background: #000;
+  box-shadow: #000000 2px -2px;
+  color: white;
+  transition: 0.1s ease;
 }
 
 @media (min-width: 875px) {
@@ -512,6 +545,9 @@ header {
   .certificate {
     max-width: 300px;
   }
+  .profile-custom {
+    max-width: 200px;
+  }
 }
 
 @media (max-width: 1850px) {
@@ -528,6 +564,9 @@ header {
 
 @media (max-width: 640px) {
   .certificate {
+    max-width: 300px;
+  }
+  .profile-custom {
     max-width: 300px;
   }
 }
